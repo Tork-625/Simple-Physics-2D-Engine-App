@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2B7B7"
+    android:visibility="visible"
+    tools:context=".Settings"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/editTextRotationFactor"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#009688"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#76FF03"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextMovingForce"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#3F51B5"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#FBC02D"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editTextFPS"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:accessibilityLiveRegion="none"
+        android:background="#E91E63"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#FFEA00"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/switchGravity"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F1B6B6"
+        android:text="Set Preferences :-"
+        android:textColor="#FDFDFD"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/switchFriction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchFriction"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:background="#B2CF49"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#000000"
+        android:text=" Friction"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:thumbTint="#EADDDD"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:visibility="visible" />
+
+    <Switch
+        android:id="@+id/switchGravity"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#673AB7"
+        android:text=" Gravity"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchFriction" />
+
+    <EditText
+        android:id="@+id/editTextg"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#673AB6"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#CCDB39"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/switchFriction"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#E81E63"
+        android:text=" FPS : "
+        android:textColor="#FEE701"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchGravity" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#009587"
+        android:text=" Rotation Factor : "
+        android:textColor="#69F311"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#3F51B4"
+        android:text=" Moving Force : "
+        android:textColor="#F2BA33"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#673AB5"
+        android:text=" g : "
+        android:textColor="#CAD83A"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/switchFriction"
+        app:layout_constraintTop_toBottomOf="@+id/switchFriction" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="301dp"
+        android:layout_height="314dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ss" />
+</androidx.constraintlayout.widget.ConstraintLayout>

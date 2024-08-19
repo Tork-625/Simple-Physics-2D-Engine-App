@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2D_Physics_Engine.iml" filepath="$PROJECT_DIR$/.idea/modules/2D_Physics_Engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/2D_Physics_Engine.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
